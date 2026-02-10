@@ -1,0 +1,36 @@
+{
+  "name": "minimanimo",
+  "version": "1.0.0",
+  "description": "Song lyrics typing practice app",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "start": "electron-vite preview"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^3.0.23",
+    "@fontsource/ibm-plex-sans-kr": "^5.2.8",
+    "ai": "^6.0.78",
+    "dotenv": "^17.2.4",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@electron-toolkit/preload": "^3.0.0",
+    "@electron-toolkit/tsconfig": "^1.0.1",
+    "@electron-toolkit/utils": "^4.0.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.0",
+    "electron": "^33.0.0",
+    "electron-vite": "^5.0.0",
+    "postcss": "^8.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.7.0"
+  }
+}
