@@ -5,3 +5,4 @@
 [2026-02-10] [CONFIG] GOOGLE_GENERATIVE_AI_API_KEY 환경변수는 .env 파일에 설정 (AI SDK가 자동 참조)
 [2026-02-10] [DECISION] TailwindCSS v4 @tailwindcss/vite 플러그인 방식 사용 (postcss.config 불필요)
 [2026-02-10] [DECISION] 윈도우 레이아웃 가로형(820x340)으로 변경 - 좌측 가사/우측 입력 2-panel 구조, 상단 바에 Stats 인라인 배치
+[2026-02-10] [DECISION] UI 테마는 초기 다크 테마(#1e1e2e 배경, 보라 계열 포인트) 유지 - cozy/블러 테마 시도 후 원복
